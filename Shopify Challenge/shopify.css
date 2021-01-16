@@ -1,0 +1,378 @@
+.body-wrapper{
+    width: 100%;
+    
+}
+body{
+    background-color: #00004A;
+}
+.button{
+    cursor: pointer;
+}
+.bg-pic{
+    background : url("movie.jpg");
+    background-size: cover;
+    padding: 50px;
+    width: 50%;
+    margin:auto;
+    margin-top: 80px;
+    border: solid 5px #00004A;
+    border-radius: 20px;
+}
+.bg-pic p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+form{
+    margin-top: 50px;
+}
+form input{
+    padding: 10px;
+    font-size: 13px;
+    width: 100%;
+    border-radius: 30px;
+    border: solid 5px #00004A;
+}
+.nomination-title{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: -20px;
+   background-color: #E8D5B5;
+   padding: 10px;
+   font-size: 15px;
+   color: #00004A;
+   font-weight: bold;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+.nomination-title:hover{
+    background-color: #00004A;
+    color: white;
+}
+.nomination-list{
+    text-align: center;
+  
+}
+.content{
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.movie-wrapper{
+    background-color:  #7BB4C3;;
+    padding: 20px;
+    margin-top: 50px;
+    line-height: 30px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;;
+    font-size: 13px;
+    
+}
+.movie-wrapper img{
+    height: 50%;
+    width: 80%;
+}
+.wrapper{
+    text-align: center;
+    /* padding: 20px; */
+}
+
+
+.Select,.Remove{
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    background-color:  #E8D5B5;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Remove{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    font-weight: bold;
+    font-size: 15px;
+}
+.Select:hover, .Remove:hover , .notification button:hover,  .done-button button:hover{
+    background-color: #00004A;
+    color: white;
+}
+.notification{
+    display: none;;
+    background-color: #00004A;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;;
+    padding: 50px;
+    padding-top: 150px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #7BB4C3;
+}
+.notification span{
+    display: block;
+}
+.notification button{
+    margin: 30px;
+    padding: 10px 30px;
+    background-color: #E8D5B5;;
+    font-weight: bold;
+    border: solid 1px #00004A;
+}
+.feedback{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 50px;
+    font-size: 30px;;
+    font-weight: bold;
+    color: #7BB4C3;;
+}
+.done-button{
+    display: none;
+   text-align: center;
+    padding: 50px;
+}
+.done-button button{
+    
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #E8D5B5;;
+    border: solid 1px #00004A;
+    color: #00004A;
+}
+.nomination{
+    padding: 20px;
+   background-color: #7BB4C3;;
+   overflow: hidden;
+   display: none;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.nomination li{
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style: none;
+    display: inline-block;
+    line-height: 27px;
+    font-size: 13px;
+
+}
+.nomination li .title{
+    font-size: 15px;
+}
+
+
+.nomination li img{
+    height: 150px;
+    margin: 20px;
+ 
+}
+.placeholder{
+    color: #00004A;
+    font-weight: bold;
+}
+
+@media only screen and (min-width : 768px) and (min-width: 1039px){
+    body{
+        background-color: #00004A;
+    }
+    .button{
+        cursor: pointer;
+    }
+    .nomination-title{
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: -20px;
+       background-color: #E8D5B5;
+       padding: 10px;
+       font-size: 17px;
+       color: #00004A;
+       font-weight: bold;
+       cursor: pointer;
+       transition: all 0.5s ease-in-out;
+    }
+    .nomination-title:hover{
+        background-color: #00004A;
+        color: white;
+    }
+    .bg-pic{
+        background : url("movie.jpg");
+        background-size: cover;
+        padding: 50px;
+        width: 700px;
+        margin:auto;
+        border: solid 5px #00004A;
+        border-radius: 20px;
+    }
+    .bg-pic p{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    form{
+        margin-top: 100px;
+    }
+    form input{
+        padding: 15px;
+        font-size: 17px;
+        width: 350px;
+        border-radius: 30px;
+        border: solid 5px #00004A;
+    }
+    .searchContent , .nomination-list{
+        padding: 30px;
+        text-align: center;
+    }
+    .nomination-list{
+        text-align: center;
+      
+    }
+    .content{
+        width: 100%;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .movie-wrapper{
+        width: 28%;
+        display: inline-block;
+        background-color:  #7BB4C3;;
+        padding: 15px;
+        margin-top: 50px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .movie-wrapper img{
+        height: 400px;
+        width: 300px;
+    }
+    .wrapper{
+        padding: 20px;
+    }
+    
+    
+    .Select,.Remove{
+        cursor: pointer;
+        width: 100px;
+        padding: 10px;
+        background-color:  #E8D5B5;
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+        border-radius: 10px;
+
+    }
+    .Remove{
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .title{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .Select:hover, .Remove:hover , .notification button:hover,  .done-button button:hover{
+        background-color: #00004A;
+        color: white;
+    }
+    .nomination{
+        padding: 20px;
+       background-color: #7BB4C3;;
+       display: flex;
+       overflow: hidden;
+       display: none;
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .nomination li{
+        margin-left: 5px;
+        margin-right: 5px;
+        list-style: none;
+        display: inline-block;
+        line-height: 27px;
+        font-size: 13px;
+    
+    }
+    .nomination li .title{
+        font-size: 15px;
+    }
+   
+    
+    .nomination li img{
+        height: 150px;
+        margin: 20px;
+     
+    }
+    
+    .notification{
+        display: none;;
+        background-color: #00004A;
+        position: fixed;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;;
+        padding: 250px;
+        font-size: 40px;
+        font-weight: bold;
+        color: #7BB4C3;
+    }
+    .notification span{
+        display: block;
+    }
+    .notification button{
+        margin: 30px;
+        padding: 10px 30px;
+        background-color: #E8D5B5;;
+        font-weight: bold;
+        border: solid 1px #00004A;
+    }
+    
+    .placeholder{
+        color: #00004A;
+        font-weight: bold;
+    }
+    .feedback{
+        margin-top: 150px;
+        margin-bottom: 150px;
+        padding: 30px;
+        font-size: 30px;;
+        font-weight: bold;
+        color: #7BB4C3;;
+    }
+    .done-button{
+        display: none;
+       text-align: center;
+        padding: 50px;
+    }
+    .done-button button{
+        
+        padding: 30px 50px;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 15px;
+        background-color: #E8D5B5;;
+        border: solid 1px #00004A;
+        color: #00004A;
+    }
+
+}
+

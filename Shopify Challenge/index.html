@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="shopify.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content = "upgrade-insecure-requests"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="shopify.js"></script>
+</head>
+<body>
+  <div class="body-wrapper">
+    <div class="notification">You have reached your limit
+      <span><button onClick="window.location.reload();">Done</button></span>
+    </div>
+    <div class="wrapper">
+      <div class="nomination-list">
+        <p class="nomination-title">NOMINATION LIST</p>
+        <div class="nomination">
+          <p class="placeholder">No movies have been selected</p>
+        </div>
+      </div>
+      <div class="searchContent">
+        <div class="bg-pic">
+          <p>SEARCH YOUR FAVOURITE MOVIE AND NOMINATE</p>
+          <form id="target">
+            <input type="text" placeholder="Search Movie"/>
+          </form>
+        </div>
+        <ul class = "content">
+        </ul>
+      </div>
+    </div>
+    <div class="done-button"><button onClick="window.location.reload();">Done</button></div>
+  </div>
+ 
+  
+
+</body>
+</html>
