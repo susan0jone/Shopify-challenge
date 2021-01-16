@@ -1,5 +1,4 @@
 $(function () {
-    let inputVal;
     $('.nomination-title').click( function (){
        $('.nomination').slideToggle();
        $('html, body').animate({
@@ -7,16 +6,10 @@ $(function () {
     }, 500);
      });
 	 $('#target').submit(function (e) {
-		$('input').keyup(function () {
-			if ($(this).val() !== '') {
-				inputVal = $(this).val().toLowerCase();
-			
-				console.log(inputVal);
-			}
-         });
-         
-         getMOvies(inputVal);
-         e.preventDefault();
+        let Text = $('#search').val();
+        console.log(Text)
+        getMOvies(Text);
+        e.preventDefault();
     });
    
 
