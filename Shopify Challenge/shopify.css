@@ -109,7 +109,7 @@ form input{
     display: none;;
     background-color: #00004A;
     position: fixed;
-    top:0;
+    top: 350px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -325,7 +325,7 @@ form input{
         display: none;;
         background-color: #00004A;
         position: fixed;
-        top:0;
+        top: 350px;
         left: 0;
         right: 0;
         bottom: 0;
