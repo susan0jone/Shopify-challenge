@@ -93,9 +93,13 @@ form input{
     margin-right: auto;
 }
 .Remove{
-    padding: 5px;
+    padding: 2px;
+    width: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+.year{
+    display:none;
 }
 .title{
     font-weight: bold;
@@ -109,13 +113,13 @@ form input{
     display: none;;
     background-color: #00004A;
     position: fixed;
-    top: 350px;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0;
     text-align: center;;
-    padding: 50px;
-    padding-top: 150px;
+   padding: 50px;
+    padding-top: 150px; 
     font-size: 35px;
     font-weight: bold;
     color: #7BB4C3;
@@ -154,6 +158,7 @@ form input{
     color: #00004A;
 }
 .nomination{
+    position: fixed;
     padding: 20px;
    background-color: #7BB4C3;;
    overflow: hidden;
@@ -161,24 +166,26 @@ form input{
    width: 80%;
    margin-left: auto;
    margin-right: auto;
+   overflow: auto;
 }
 .nomination li{
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style: none;
-    display: inline-block;
+    display: block;
     line-height: 27px;
-    font-size: 13px;
+    font-size: 10px;
 
 }
 .nomination li .title{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
 .nomination li img{
-    height: 150px;
-    margin: 20px;
+   display: none;
  
 }
 .placeholder{
@@ -248,6 +255,9 @@ form input{
         margin-left: auto;
         margin-right: auto;
     }
+    .year{
+        display: block;
+    }
     .movie-wrapper{
         width: 28%;
         display: inline-block;
@@ -256,6 +266,7 @@ form input{
         margin-top: 50px;
         line-height: 30px;
         font-size: 17px;
+      
     }
     .movie-wrapper img{
         height: 400px;
@@ -292,6 +303,7 @@ form input{
         color: white;
     }
     .nomination{
+        position: fixed;
         padding: 20px;
        background-color: #7BB4C3;;
        display: flex;
@@ -300,6 +312,7 @@ form input{
        width: 90%;
        margin-left: auto;
        margin-right: auto;
+       z-index: 2345382;
     }
     .nomination li{
         margin-left: 5px;
@@ -308,6 +321,7 @@ form input{
         display: inline-block;
         line-height: 27px;
         font-size: 13px;
+       
     
     }
     .nomination li .title{
@@ -316,6 +330,7 @@ form input{
    
     
     .nomination li img{
+        display: inline-block;
         height: 150px;
         margin: 20px;
      
@@ -325,7 +340,7 @@ form input{
         display: none;;
         background-color: #00004A;
         position: fixed;
-        top: 350px;
+        top: 0px;
         left: 0;
         right: 0;
         bottom: 0;
