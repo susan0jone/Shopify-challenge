@@ -6,10 +6,9 @@ $(function () {
     }, 500);
      });
 	 $('#target').submit(function (e) {
-        let Text = $('#search').val();
-        console.log(Text)
-        getMOvies(Text);
-        e.preventDefault();
+        let searchText = $('#Text').val();
+		getMOvies(searchText);
+		e.preventDefault();
     });
    
 
@@ -73,7 +72,7 @@ $(function () {
                         <li class="movie-display">
                         <img src=${movie.Poster}/>
                         <div class="title">${movie.Title}</div>
-                        <div>${movie.Year}</div>
+                        <div class="year">${movie.Year}</div>
                         <div class="Remove"  onclick="clicked('${movieIndex}')">Remove</div></li>`;
                         }).join('');
                         $('.nomination').append(displayMovie);
